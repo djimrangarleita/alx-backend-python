@@ -3,6 +3,7 @@
 Annotated module for addition
 """
 
+
 def add(a: float, b: float) -> float:
     """Function that add two floats passed as param
 

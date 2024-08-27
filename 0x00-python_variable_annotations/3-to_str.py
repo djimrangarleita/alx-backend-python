@@ -2,6 +2,7 @@
 """String manipulation module
 """
 
+
 def to_str(n: float) -> str:
     """Turn a float passed as argument to a string
 

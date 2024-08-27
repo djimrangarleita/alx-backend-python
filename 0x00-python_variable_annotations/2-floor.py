@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+"""Type annotated module to floor a number
+"""
 import math
 
 
