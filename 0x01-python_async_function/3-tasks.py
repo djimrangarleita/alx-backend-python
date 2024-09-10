@@ -12,6 +12,6 @@ def task_wait_random(max_delay: int) -> asyncio.Task[float]:
         max_delay (int): Maximum waiting time
 
     Returns:
-        Callable: Coroutine task
+        asyncio.Task[float]: Coroutine task
     """
     return asyncio.Task(wait_random(max_delay))
